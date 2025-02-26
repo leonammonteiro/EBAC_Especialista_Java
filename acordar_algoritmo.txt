@@ -1,0 +1,13 @@
+1 - Eu acordo;
+2 - Eu abro os olhos;
+3 - EU viro para o lado;
+4 - Eu visualizo as horas no relógio;
+5 - São mais de 7:00h?
+	1 - Sim!:
+		1 - Eu me sento na cama;
+		2 - Eu calço meus chinelos;
+		3 - Me coloco em pé;
+	2 - Não!:
+		1 - Reviro para o lado que estava;
+		2 - Fecho os olhos;
+		3 - Volto a dormir;
