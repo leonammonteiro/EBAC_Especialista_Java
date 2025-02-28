@@ -9,7 +9,7 @@ public class Programa {
         int numero = leitor.nextInt();
         Integer numeroWrapper = numero;
         System.out.println("Seu número wrapper é:" + numeroWrapper);
-
+        scanner.close();
     }
 
 }
