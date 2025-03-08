@@ -43,13 +43,23 @@ public class CalcularMedia {
         this.nota4 = nota4;
     }
 
-    public double mediaFinal(){
+    public void mediaFinal(){
         media = (nota1 + nota2 + nota3 + nota4)/4;
         System.out.println("Sua média foi: " + media);
-        return media;
     }
 
     public Double getMedia(){
         return media;
+    }
+
+    @Override
+    public String toString() {
+        return "CalcularMedia{" +
+                "nota1= \"" + nota1 +
+                "\", nota2= \"" + nota2 +
+                "\", nota3=\"" + nota3 +
+                ", nota4= \"" + nota4 +
+                "\", media= \"" + media + "\"" +
+                '}'; //é permitido aspas simples, pq é somente um caractere
     }
 }
